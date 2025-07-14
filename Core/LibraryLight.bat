@@ -1,0 +1,2 @@
+..\ARMIPS\bin\mips64-elf-gcc -Wall -O1 -mtune=vr4300 -march=vr4300 -mabi=32 -fomit-frame-pointer -G0 -c "..\library\LibraryVariables.c" -o "..\library\LibraryVariables.o" 
+..\ARMIPS\bin\mips64-elf-gcc -Wall -O1 -mtune=vr4300 -march=vr4300 -mabi=32 -fomit-frame-pointer -G0 -c "..\library\SharedFunctions.c" -o "..\library\SharedFunctions.o" 

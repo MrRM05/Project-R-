@@ -1,0 +1,55 @@
+; 0x80400000 - 0x804FFFFF is restricted for OverKart64 functions.
+; 0x80500000 - 0x805FFFFF is reserved for Custom Course assembly.
+
+//Preview Table Offset 0x8020E460
+//Images are 0x4E10 apart.
+//2 Images back to back.
+
+
+//course header table 0x802B8D80
+//rsp segment table 0x80117920
+//sky RAM table 0x802B8AD0
+
+
+
+
+;;simpleobjRegion 0x80420000
+;;dynamicobjRegion 0x80422BC4
+;;playerdataRegion 0x80440D08
+;; region 0x80447BCC
+;; region 0x80448410
+;; region 0x804486F0
+
+
+
+
+//13EC0
+// OverKart 64 stores data tables at specific Offsets in the ROM and RAM.
+// Data Tables for Custom Courses:
+
+
+// 0xBFDA80
+// OverKart64 Internal Course Names - 0x04 bytes per Course
+//
+// Staff Ghost Offset - 0x04 bytes per Course
+//
+//  SongId - 0x01 Byte per Course. && Game Speed 0x03 Bytes per Course -- Combined 0x04 Bytes Per Course.
+//
+// Course Map Offset - 0x04 Bytes per course.
+//
+// Course Map Position - 0x04 Bytes per course.
+//
+// Sky Colors Offset - 0x04 bytes per course
+//
+// Custom ASM Routine Offset - 0x04 bytes per course
+//
+// Course Headers - -0x30 bytes per Course
+//
+
+
+
+
+// Course Preview Image Offset - 0x04 bytes per course
+//0xBFED40
+// Course Banner Image Offset - 0x04 bytes per course
+//0xBFEE80
